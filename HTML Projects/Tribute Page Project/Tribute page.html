@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tribute Page Project</title>
+        <style>
+            #heading{
+                color: rgb(255, 255, 255);
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            .Top{
+                border-width: 100px;
+                border: rgb(0, 0, 0);
+                border-style: double;
+                
+                background-color: rgb(100, 100, 100);
+            }
+            .audio{
+                margin-top: 15px;
+                border-style: solid;
+                border-color: rgb(90, 90, 90);
+                text-align: center;
+                background-color: rgb(75, 75, 75);
+            }
+            
+            .information{
+                background-color: rgba(0, 0, 0, 0.425);
+                border-style: solid;
+                border-color: beige;
+                display: flex;
+            }
+
+            #info{
+                margin-top: 50%;
+            }
+
+            #para{
+                margin-left: 10px;
+                margin-top: 40px;
+                margin-right: 10px;
+                text-size-adjust: 16px;
+                text-align: justify;
+                color: rgb(226, 226, 226);
+                
+            }
+
+            .Video{
+                border: rgb(255, 255, 255);
+                border-style: solid;
+                margin-right: auto;
+                margin-left: auto;
+                
+            }
+            #content{
+                width: 90%;
+                height: 90%;
+                top: 50%;
+                left: 50%;
+                object-fit: cover;
+                padding-left: 5%;
+                padding-top: 1%;
+                padding-bottom: 1%;
+                
+
+            }
+        </style>
+    </head>
+
+    <body style="background-image:url(https://9to5mac.com/wp-content/uploads/sites/6/2021/09/Apple-TV.png?w=1600)">
+        
+            <div class="Top">
+                <h1 id="heading">Tribute To Steve Jobs</h1>
+                <img src="https://images.theconversation.com/files/4168/original/Jobby.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=675.0&fit=crop", height="50%", width="100%"/>        
+            </div>
+
+            <div class="audio">
+                <p id="hint_line" style="color: aqua;">Listen to Steve Jobs's Motivational Speech</p>
+                <audio controls>
+                    <source src="steve_audio.mp3">
+                </audio>
+            </div>
+
+            <h2 style="border-style: ridge; color: blanchedalmond; background-color: rgba(0, 0, 0, 0.479); margin-top: 30px; text-align: center;">
+                Let's get to know something about Steve Jobs</h2>
+
+            <div class="information">
+                    <h4 style="color: beige; text-align: center;" id="name"><b>Steve Jobs</b>
+                        <p id="para">
+                            Steve Paul Jobs was born in San Francisco, California on February 24, 1955. 
+                            His birth parents gave him up for adoption and he was adopted by Paul and Clara Jobs. 
+                            Paul was a machinist and Clara an accountant. 
+                            When Steve was five, the family moved to Mountain View, California where Steve went to school and grew up. 
+                            One of Steve's favorite hobbies growing up was working with electronics in his garage with his dad. 
+                            They would take apart electronics like radios and then put them back together. 
+                            Steve was a smart student, but got bored with school. <br><br>
+                            He often played pranks on others, getting into trouble. When he was thirteen, Jobs met eighteen-year-old Steve Wozniak. 
+                            Wozniak was also into electronics and the two boys became friends.
+                            After graduating from high school, Jobs attended Reed College in Oregon. 
+                            However, he found the classes boring and soon dropped out, taking a job with video game maker Atari. 
+                            Jobs became more and more interested in philosophy. He quit his job and took a trip to India to find "enlightenment." 
+                            He spent seven months traveling around India and studying the religion of Zen Buddhism. 
+                            Upon his return to California, he went back to work for Atari.<br><br>
+                            Jobs began hanging out with Steve Wozniak again and the two of them were very interested in computers. 
+                            Wozniak wanted his own personal computer and, being the electronics genius he was, he invented his own computer. 
+                            Jobs was impressed. He said they should start their own company selling the computer and Wozniak agreed. 
+                            In 1976, they formed the company Apple Computer and called their first computer the Apple I. 
+                            They began making the computers in Jobs' garage. Jobs was just 21 years old at the time. 
+                            Wozniak then started working on the next version called the Apple II. Jobs could tell that this was going to be a great product. 
+                            He sold the idea to some investors convincing them to invest in the company. The Apple II was a great success. 
+                            The company quickly grew and went public just four years after it started in 1980<br><br>
+
+                            <a style="color: rgb(83, 149, 194);" href="https://en.wikipedia.org/wiki/Steve_Jobs">Read more about Steve Jobs here.</a>
+                        </p>
+                
+                    </h4>
+                    <img id="steve" src="steve.jpg", height="870px", width="50%"/>
+                    
+
+            </div>
+
+            <h2 style="margin-top: 20px; color: blanchedalmond; text-align: center; background-color: rgba(0, 0, 0, 0.384); border-style: solid;">
+            Best Motivational Speech Of Steve Jobs</h2>
+
+            <div class="Video">
+                <video id="content" height="720" width="1024" controls>
+                    <source src="videoplayback.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <footer style="color: blanchedalmond; padding-top: 35px; text-align: center;">
+                This is a Tribute Page developed by Dharun Srikanth. 
+                <br><b>If you have any thoughts regarding this page, feel free to send your thoughts</b><br>
+                <a style="color: rgb(81, 156, 255);" href="mailto:tecboy2020@gmail.com">Send Mail</a>
+
+
+            </footer>
+        
+    </body>
+
+</html>
